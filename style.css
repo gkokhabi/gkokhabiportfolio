@@ -1,0 +1,64 @@
+
+
+body{
+  background: #000; 
+  overflow:hidden; 
+  width:100%; 
+  height:100%; 
+  position:fixed; 
+  top:0; 
+  left:0;
+}
+
+body:full-screen{
+  width:100%; 
+  height:100%;
+}
+
+body:fullscreen{
+  width:100%; 
+  height:100%;
+}
+
+body:-webkit-full-screen, 
+body:-moz-full-screen{
+  width:100%; 
+  height:100%;
+}
+
+
+.mouse{
+	width:22px;
+	height:22px;
+	position:absolute;
+	z-index:1;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsSAAALEgHS3X78AAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAABfUlEQVR42mL4//8/AzKOjY39z8DAwA3ErOhy6BgGsMkBBBATAxYANPwLkBJnZGRkZSATAAQQVoMXLVoEMvwxJYYDBBATLglKDQcIICZ8kpQYDhBATIQUkGs4QAAxEaOIHMMBAoiJWBeQajhAADGREm6kGA4QQEykxjay4aBMhEsdQACxEGtgXFwceiZ6vHjxYlkg8yUQ/0ZXDxBALIQMA7kQBoAGhQCpr1CDfkGzPhs2gwECiAFbWQEC0DIjGMZHEjMCYhkgFgNiAVxlCkAAseByKdR1r7BIg8L1C1DzB2AE4vQtQAAx4CjdbKEY7DIsrlZEjjhsLgYIIAwXA10qCI3xr9CIwQZAwfAeiD/gcjBAAGErY1nRy2NQWOJzNTYXAwQQExaLfgPxVxCNJPwVh6u5cTkYIICISscgS4ARJQj1PgzwQJMaVgAQQIzIVQxYAHdMs0LDXhpqKMiSe6BwRjcDBAACiBSDkcOfDZpBwJkFm8EAAcSITZAaACDAAGEiJMT0Q2k9AAAAAElFTkSuQmCC) -4px 0;
+}
+
+/*
+image of a mouse
+*/
+
+
+/*
+https://i.postimg.cc/CLMRpmx1/pic5.jpg
+https://i.postimg.cc/CLMRpmx1/pic5.jpg
+or 
+
+https://blog.emsisoft.com/wp-content/uploads/2017/02/2019-10-02_1442.png
+https://blog.emsisoft.com/wp-content/uploads/2017/02/2019-10-02_1442.png
+pop up image
+*/
+
+.error{
+	width:847px;
+	height:576px;
+	position:absolute;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	background: 
+  url(https://i.postimg.cc/CLMRpmx1/pic5.jpg);
+}
+
+
+
