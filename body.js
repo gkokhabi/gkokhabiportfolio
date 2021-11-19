@@ -14,6 +14,7 @@ $(document).keydown(function(e) {
 	}, 250);
 
   
+  
   var message = "Right-click disabled"; 
   function clickIE() {if (document.all) {(message);return false;}} 
   function clickNS(e) {if 
@@ -24,3 +25,12 @@ $(document).keydown(function(e) {
   document.oncontextmenu = new Function("return false");
   
   
+
+  $('.cookies_close').on('click', function () {
+    if($.cookie('Terms')){
+        $('#cookies_alert').addClass("closed");
+    } else {
+        $.cookie('Terms', 'Terms', { expires: 7 });
+        $('#cookies_alert').removeClass("closed");
+    }
+});
