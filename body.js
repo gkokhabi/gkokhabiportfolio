@@ -14,7 +14,6 @@ $(document).keydown(function(e) {
 	}, 250);
 
   
-  
   var message = "Right-click disabled"; 
   function clickIE() {if (document.all) {(message);return false;}} 
   function clickNS(e) {if 
@@ -25,4 +24,3 @@ $(document).keydown(function(e) {
   document.oncontextmenu = new Function("return false");
   
   
-
